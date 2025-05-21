@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main.py",
+            "args": ["AAPL", "-s", "2020-01-01"],
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "console": "integratedTerminal"
+        }
+    ]
+}
