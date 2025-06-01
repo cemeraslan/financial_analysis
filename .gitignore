@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Kivy
+# *. Schüler # If you see files ending with this, they are Kivy backups
+# *.kv~      # Kivy language file backups
+.buildozer/
+bin/
+# dist/ # Already covered, but for buildozer output
+# android/ # buildozer output for android
+# ios/     # buildozer output for ios
+
+# Virtual Environments - IMPORTANT
+# If your virtual environment folder is INSIDE this project folder,
+# list its name here. Based on your prompt (ENV_DIR), if that's
+# the actual folder name inside daily_iching_mobile_app, use that.
+# If it's outside, you don't need to list it.
+ENV_DIR/  # If ENV_DIR is a folder directly inside your project.
+venv/     # Common name, include if you might use it.
+.venv/    # Another common name.
+
+# Virtual environment components at project root (less ideal)
+/bin/
+/lib/
+/lib64/
+/include/
+/share/
+/pyvenv.cfg
+
+# SQLite Databases (optional, if you don't want to commit the DB)
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# IDE specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
